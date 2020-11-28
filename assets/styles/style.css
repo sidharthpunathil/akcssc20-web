@@ -223,7 +223,7 @@ nav.black {
 .main-heading-2 {
 	text-align: center;
 	color: red;
-	padding: 10px
+	padding: 30px 10px 10px 10px;
 }
 
 .container-2 {
@@ -239,7 +239,7 @@ nav.black {
 
 .image-container {
 	display: flex;
-	padding: 20px;
+	padding: 20px 20px 30px 20px;
 	text-align: center
 }
 
@@ -382,7 +382,11 @@ nav.black {
 		/* padding-top: 80%; */
 	}
 	
+	.image-container {
+		padding: 0px 0px 0px 0px;
 	}
+
+}
 	
 
 footer {

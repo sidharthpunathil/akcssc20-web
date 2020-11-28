@@ -149,7 +149,7 @@ header {
 	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .1)), url(https://raw.githubusercontent.com/sidharthpunathil/web-entwickler/master/assets/images/banner.png);
 	background-size: cover;
 	background-position: center;
-    height: 100vh
+    height: 100vh;
     
 }
 
@@ -271,6 +271,7 @@ nav.black {
 }
 
 @media only screen and (max-width:1605px) {
+
 	.nav-header {
 		font-size: 2rem;
 		color: #fff;
@@ -294,8 +295,11 @@ nav.black {
 	}
 }
 
+
 @media only screen and (max-width:700px) {
-	
+	header {
+		height: 70vh;
+	}
 	.material-icons {
 		padding-top: 30%;
 		text-align: right;
@@ -364,6 +368,22 @@ nav.black {
 		padding-top: 22px; 
 	}
 }
+
+@media only screen and (max-width:340px) {
+
+	header {
+		height: 60vh;
+	}
+	
+	.nav-header {
+		font-size: 1.5rem;
+		padding: 50% 20px 20px 20px;
+		color: rgb(255, 255, 255);
+		/* padding-top: 80%; */
+	}
+	
+	}
+	
 
 footer {
 	bottom: 0;
